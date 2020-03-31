@@ -1,4 +1,4 @@
-/* IDEA: nav-top */
+/*  nav-top */
 body {
     background-color: white;
 }
@@ -16,24 +16,95 @@ body {
     padding: 5px;
 }
 
-/* IDEA: nav-bottom */
-#header-top img {
-    height: 30px;
-    width: 70px;
-    object-fit: scale-down;
+#nav-top-right{
+    float: right;
+    padding-top: 17px;
+}
+
+#nav-top-right li {
+    display:inline;
+    font-size: 12px;
+    color: #5b6987;
+    margin-right:0;
+    padding-left: 60px;
+}
+
+#nav-top-right a:disabled {
+    color:blue;
+}
+
+/* nav-bottom */
+#header-bottom {
+    border-radius: 0;
+    border: none;
+}
+
+#header-bottom img {
+    height: 90px;
+    max-width: 200px;
+    object-fit: cover;
 }
 
 .navbar-default .navbar-nav > li > a{
     color: #031b4e;
     font-size: 14px;
     padding-right: 50px;
+    padding-top: 35px;
 }
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #0069ff;
+}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: white;
 
 }
 #header-bottom {
-    padding: 65px 0px 10px 0px;
+    padding: 50px 0px 10px 0px;
     border-radius: 0;
+}
 
+#header-bottom button {
+    background-color: white;
+    color: #0069ff;
+    border: 1px solid #0069ff;
+    margin-top: 35px;
+    margin-right:20px;
+    padding:5px 10px 5px 10px;
+}
+
+#header-bottom button:hover {
+    background-color: #0069ff;
+    background-size: contain;
+    color: white;
+}
+
+/* INIZIO JUMBOTRON */
+
+.jumbotron {
+    margin-top: 80px;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#welcome {
+    padding-top: 80px;
+}
+
+form {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    color: #031B4E;
+    padding: 50px;
+    width: 75%;
+}
+
+form button {
+    margin: 10px 0 10px 0;
+    background-color: #0069ff;
+    color: white;
+    font-weight: bold;
 }
