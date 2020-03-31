@@ -1,7 +1,9 @@
 /* IDEA: nav-top */
+body {
+    background-color: white;
+}
 
 .navbar-brand{
-    background-color:
     color: rgba(3,27,78,.7);
     font-size: 12px;
 }
@@ -12,4 +14,26 @@
     color: black;
     font-weight: normal;
     padding: 5px;
+}
+
+/* IDEA: nav-bottom */
+#header-top img {
+    height: 30px;
+    width: 70px;
+    object-fit: scale-down;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: #031b4e;
+    font-size: 14px;
+    padding-right: 50px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: white;
+
+}
+#header-bottom {
+    padding: 65px 0px 10px 0px;
+    border-radius: 0;
+
 }
