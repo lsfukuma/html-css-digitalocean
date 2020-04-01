@@ -18,7 +18,7 @@
                                     <span class="label label-default text-uppercase">New</span>
                                     <span> Working on something related to COVID-19? DigitalOcean would like to help ❯ </span>
                                 </a>
-                                <ul id="nav-top-right" class="hidden-xs hidden-sm" >
+                                <ul id="nav-top-right" class="navbar-right hidden-xs hidden-sm" >
                                     <li><a href="#">Docs</a>
                                     </li>
                                     <li><a href="#">Get Support</a>
@@ -33,22 +33,11 @@
                     </nav>
                 </div>  <!--/div nav-top -->
             </div>
-            <div id="header-bottom" class="navbar-fixed-top">
+            <div id="header-bottom" class="navbar-fixed-top hidden-xs hidden-sm">
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
                             <img src="img/logo.png" alt="">
-                        </div>
-
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse">
                             <ul id="nav-options" class="nav navbar-nav navbar-middle hidden-xs hidden-sm">
                                 <li>
                                     <a href="#">Products <span><i class="fas fa-chevron-down"></i></span></a>
@@ -69,8 +58,8 @@
                                     <a href="#">Pricing</a>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default navbar-right hidden-xs hidden-sm">Sign Up</button>
-                        </div><!-- /.navbar-collapse -->
+                            <button type="button" class="btn btn-default margin-right hidden-xs hidden-sm">Sign Up</button>
+                        </div><!-- /.navbar-header -->
                     </div><!-- /.container-fluid -->
                 </nav>
             </div>
@@ -79,40 +68,48 @@
             <section>
                 <div class="jumbotron">
                     <div class="container-fluid">
+                        <div class="row" id="logo-xs">
+                            <div class="hidden-md hidden-lg col-xs-1 col-sm-1 col-md-1">
+                                <img src="img/logo-digitalocean.svg" alt="">
+                            </div>
+                            <div class="hidden-lg col-xs-6 col-xs-offset-5 col-sm-6 col-sm-offset-5 col-md-6 col-md-offset-8">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                        </div>
                         <div class="row" id="welcome">
-                            <div class="col-md-4 col-md-offset-2">
+                            <div class="col-md-5 col-md-offset-1">
                                 <h1>Welcome to the developer cloud</h1>
                                 <p>We make it simple to launch in the cloud and scale up as you grow - with an intuitive control panel, predictable pricing, team accounts, and more.</p>
                             </div>
-                            <div class="row">
-                                <div class="col-md-4 col-md-offset-2">
-                                    <form>
-                                        <p class="text-center"> <strong>Deploy in seconds   </strong></p>
-                                      <div class="form-group">
-                                        <input type="text" class="form-control"  placeholder="Full name">
-                                      </div>
-                                      <div class="form-group">
-                                        <input type="address email" class="form-control"  placeholder="Email address">
-                                      </div>
-                                      <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Create a password">
-                                      <button type="submit" class="btn btn-block">Create your account</button>
-                                      <p id="riga">or sign up with</p>
-                                      <button type="Google" class="btn btn-default">Create your account</button>
-                                      <button type="GitHub" class="btn btn-default">Create your account</button>
-                                      <p><small>By signing up you agree to the </small>
-                                          <a href="#">Terms of Service</a>
-                                      </p>
-                                    </form>
-
-
+                            <div class="col-md-5 col-md-offset-1">
+                                <form>
+                                    <p class="text-center"> <strong>Deploy in seconds   </strong>
+                                    </p>
+                                <div class="form-group">
+                                    <input type="text" class="form-control"  placeholder="Full name">
                                 </div>
-
+                                <div class="form-group">
+                                    <input type="address email" class="form-control"  placeholder="Email address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Create a password">
+                                    <button type="submit" class="btn btn-block">Create your account</button>
+                                    <p id="riga">or sign up with</p>
+                                    <button type="Google" class="btn btn-default social-media">Google</button>
+                                    <button type="GitHub" class="btn btn-default social-media">GitHub</button>
+                                    <p>
+                                        <small>By signing up you agree to the </small>
+                                        <a href="#">Terms of Service</a>
+                                    </p>
+                                </form>
+                                </div>
                             </div>
-
                         </div>
-
-
                     </div> <!-- /container fluid -->
 
                 </div><!-- /div jumbotron -->
