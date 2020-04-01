@@ -11,30 +11,26 @@
         <header>
             <div id="header-top">
                 <div class="nav-top navbar-fixed-top">
-                    <nav class="navbar navbar-default">
+                    <nav class="navbar navbar-default navbar-bianco">
                         <div class="container-fluid">
                             <div class="navbar-header">
                                 <a class="navbar-brand" href="#">
                                     <span class="label label-default text-uppercase">New</span>
                                     <span> Working on something related to COVID-19? DigitalOcean would like to help ❯ </span>
                                 </a>
-                                <ul id="nav-top-right" class="navbar-right hidden-xs hidden-sm" >
-                                    <li><a href="#">Docs</a>
-                                    </li>
-                                    <li><a href="#">Get Support</a>
-                                    </li>
-                                    <li><a href="#">Sales</a>
-                                    </li>
-                                    <li><a href="#">Sign in </a>
-                                    </li>
-                                </ul>
                             </div><!-- /.navbar-header-->
+                            <ul id="nav-top-right" class="navbar-right hidden-xs hidden-sm" >
+                                <li>Docs</li>
+                                <li>Get Support</li>
+                                <li>Sales</li>
+                                <li>Sign in</li>
+                            </ul>
                         </div> <!-- /containerfluid -->
                     </nav>
                 </div>  <!--/div nav-top -->
             </div>
-            <div id="header-bottom" class="navbar-fixed-top hidden-xs hidden-sm">
-                <nav class="navbar navbar-default">
+            <div id="header-bottom" class="navbar-fixed-top hidden-xs hidden-sm ">
+                <nav class="navbar navbar-default navbar-bianco">
                     <div class="container-fluid">
                         <div class="navbar-header">
                             <img src="img/logo.png" alt="">
@@ -69,10 +65,10 @@
                 <div class="jumbotron">
                     <div class="container-fluid">
                         <div class="row" id="logo-xs">
-                            <div class="hidden-md hidden-lg col-xs-1 col-sm-1 col-md-1">
+                            <div class="hidden-lg col-xs-1 col-sm-1 col-md-1">
                                 <img src="img/logo-digitalocean.svg" alt="">
                             </div>
-                            <div class="hidden-lg col-xs-6 col-xs-offset-5 col-sm-6 col-sm-offset-5 col-md-6 col-md-offset-8">
+                            <div class="hidden-lg col-xs-6 col-xs-offset-5 col-sm-6 col-sm-offset-5 col-md-6 col-md-offset-5">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
@@ -90,29 +86,74 @@
                                 <form>
                                     <p class="text-center"> <strong>Deploy in seconds   </strong>
                                     </p>
-                                <div class="form-group">
-                                    <input type="text" class="form-control"  placeholder="Full name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="address email" class="form-control"  placeholder="Email address">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Create a password">
-                                    <button type="submit" class="btn btn-block">Create your account</button>
-                                    <p id="riga">or sign up with</p>
-                                    <button type="Google" class="btn btn-default social-media">Google</button>
-                                    <button type="GitHub" class="btn btn-default social-media">GitHub</button>
-                                    <p>
-                                        <small>By signing up you agree to the </small>
-                                        <a href="#">Terms of Service</a>
-                                    </p>
-                                </form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control"  placeholder="Full name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="address email" class="form-control"  placeholder="Email address">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Create a password">
+                                        <button type="submit" class="btn btn-block">Create your account</button>
+                                        <p id="riga" class="text-center small">or sign up with</p>
+                                        <button type="Google" class="btn btn-default btn-social-media">
+                                            <i class="fab fa-google"></i> Google
+                                        </button>
+                                        <button type="GitHub" class="btn btn-default btn-social-media">
+                                            <i class="fab fa-github"></i> GitHub
+                                        </button>
+                                        <p class="small text-center">
+                                            <small>By signing up you agree to the </small>
+                                            <a class="small"href="#">Terms of Service</a>
+                                        </p>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div> <!-- /container fluid -->
-
                 </div><!-- /div jumbotron -->
+            </section>
+            <section id="business">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3 class="text-uppercase text-center">innovative businesses trust digitalocean</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
+                            <img src="img/1business.png" alt="Docker">
+                        </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
+                            <img src="img/2business.png" alt="GitLab">
+                        </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
+                            <img src="img/3business.png" alt="Slack">
+                        </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
+                            <img src="img/4business.png" alt="HashiCorp">
+                        </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
+                            <img src="img/5business.png" alt="wework">
+                        </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2">
+                            <img src="img/6business.png" alt="splunk">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p class="text-center">See our business solutions</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </section>
 
         </main>
