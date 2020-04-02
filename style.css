@@ -35,6 +35,28 @@
     margin-bottom: 50px;
 }
 
+.title-box {
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 1.25;
+}
+
+.paragraph-box {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.paragraph-special {
+    color: #0069ff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.paragraph-special p:hover {
+    cursor: pointer;
+}
+
+
 /*  nav-top */
 .navbar-default {
     border-radius: 0;
@@ -251,21 +273,52 @@ form button {
     border-left: 2px solid #0069ff;
 }
 
-.deploy-boxes h3 {
-    font-size: 18px;
-    margin-top: 8px;
-    line-height: 1.25;
-}
-
-.deploy-boxes p {
-    font-size: 16px;
-    margin-top: 16px;
-}
-
-
-
-.deploy-marginbot {
+#deploy-box-bottom{
     margin-bottom: 100px;
 }
 
 /* IDEA: section for developers */
+#fordevelopers {
+    padding-bottom: 100px;
+}
+
+#fordevelopers img{
+    margin-bottom: 20px;
+}
+
+#fordevelopers i{
+    margin-top:200px;
+    color: #031b4e;
+}
+
+#fordevelopers i:hover {
+    color: #0069ff;
+    cursor: pointer;
+}
+
+#didascalia {
+    margin-bottom: 20px;
+}
+
+#fordevelopers li{
+    display: inline-block;
+    list-style: circle;
+}
+
+.dot{
+    font-size: 2px;
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+    border: 2px solid #0069ff;
+    padding: 2px;
+    color: white;
+    margin-right: 3px;
+}
+
+.dot:nth-of-type(3) {
+    background-color: #0069ff;
+    color: #0069ff;
+}
+
+/* IDEA: Inizio section advantages - built for business */
