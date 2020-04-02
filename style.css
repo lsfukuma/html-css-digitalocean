@@ -7,7 +7,7 @@
     border-radius: 0;
 }
 
-.navbar-bianco {
+.background-white {
     background-color: white;
 }
 
@@ -104,23 +104,29 @@
     background-image: url("img/background.jpg");
     background-size: cover;
     color: #ffff;
+    margin-bottom: 0;
 }
 
 #welcome {
     padding-top: 80px;
 }
+#welcome p {
+    font-size: 24px;
+
+}
 
 
 /* formulario jumbotron */
 #riga {
-    max-width: 410px;
+    max-width: 100%;
     position: relative;
+    margin-top: 2%;
 }
 
 #riga::before,
 #riga::after {
     content: '';
-    width: 20%;
+    width: 30%;
     height: 1px;
     background-color: #B3BAC8;
     position: absolute;
@@ -137,13 +143,16 @@
     right: 0;
 }
 
+#formulario p {
+    font-size: 14px;
+}
+
 form {
     border-radius: 5px;
     border: 1px solid white;
     background-color: white;
     color: #031B4E;
     padding: 8% 3% 8% 3%;
-    width: 75%;
 }
 
 form button {
@@ -151,7 +160,6 @@ form button {
     background-color: #0069ff;
     color: white;
     font-weight: bold;
-    width: 40%;
 }
 
 .btn-social-media {
@@ -161,22 +169,57 @@ form button {
     border: 1px solid rgba(0,105,255,.2);
     border-radius: 3px;
     display: inline-block;
-    width: 40%;
+    width: 45%;
     padding: 2% 5% 2% 5%;
     margin-bottom: 5%;
+    position: relative;
+}
+
+.btn-social-media:last-of-type {
+    position: absolute;
+    right:0;
 }
 
 /* IDEA: INIZIO SeCTION BUSINESS */
 
-#business {
+.background-gray {
     background-color: #F3F5F9;
     color: #272828;
-    margin-top: 0;
+}
+
+.color-gray {
+    color: #98A3B8;
+}
+
+.color-dgray {
+    color: #rgba(3,27,78,.7);
+}
+
+.color-blue {
+    color: #0069ff;
+}
+
+.color-navy {
+    color: #031B4E;
 }
 
 #business img {
-    max-height: 100%;
+    margin: 20px 0;
     max-width: 150px;
+    height: auto;
     object-fit: contain;
     padding: 5%;
 }
+
+#business h3 {
+    letter-spacing: .05em;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+#business p {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+/* IDEA: Inizio section deploy */
