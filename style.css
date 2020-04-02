@@ -12,7 +12,7 @@
 }
 
 .color-dgray {
-    color: #rgba(3,27,78,.7);
+    color: #4E5F83;
 }
 
 .color-blue {
@@ -21,6 +21,18 @@
 
 .color-navy {
     color: #031B4E;
+}
+
+.title-section{
+    font-size: 40px;
+    line-height: 1.25;
+    margin: 120px 0 30px 0;
+}
+
+.paragraph-section {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 50px;
 }
 
 /*  nav-top */
@@ -223,19 +235,8 @@ form button {
 }
 
 /* IDEA: Inizio section deploy */
-#deploy h2 {
-    font-size: 40px;
-    line-height: 1.25;
-    margin: 120px 0 30px 0;
-}
-
-#deploy-left p {
-    font-size: 20px;
-    margin-top: 16px;
-}
-
 #deploy-left ul{
-    margin-top: 50px;
+
     list-style: none;
     line-height: 30px;
 }
@@ -261,9 +262,10 @@ form button {
     margin-top: 16px;
 }
 
-.deploy-margintop {
-    margin-top: 50px;
-}
+
+
 .deploy-marginbot {
     margin-bottom: 100px;
 }
+
+/* IDEA: section for developers */
