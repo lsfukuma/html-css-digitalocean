@@ -9,6 +9,10 @@
     color: #272828;
 }
 
+.color-white{
+    color: #fff;
+}
+
 .color-gray {
     color: #98A3B8;
 }
@@ -52,6 +56,13 @@
     color: #0069ff;
     font-size: 16px;
     margin-bottom: 10px;
+}
+
+.btn-blue {
+    background-color: #ffff;
+    color: #0069ff;
+    border: 1px solid #0069ff;
+    font-weight: bold;
 }
 
 /*  nav-top */
@@ -123,12 +134,8 @@
 }
 
 #header-bottom button {
-    background-color: #ffff;
-    color: #0069ff;
-    border: 1px solid #0069ff;
     margin-top: 25px;
     padding:10px 15px 10px 15px;
-    font-weight: bold;
     position: absolute;
     right: 2%;
 }
@@ -287,20 +294,17 @@ form button {
 #fordevelopers i{
     margin-top:200px;
     color: #031b4e;
+    font-size: 30px;
 }
 
-#fordevelopers i:hover {
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
     color: #0069ff;
     cursor: pointer;
 }
 
 #didascalia {
     margin-bottom: 20px;
-}
-
-#fordevelopers li{
-    display: inline-block;
-    list-style: circle;
 }
 
 .dot{
@@ -315,7 +319,7 @@ form button {
     margin-left:3px;
 }
 
-.dot:nth-of-type(3) {
+.dot:nth-of-type(2) {
     background-color: #0069ff;
     color: #0069ff;
 }
@@ -325,11 +329,11 @@ form button {
     content: "\f054";
     font-family: FontAwesome;
     font-weight: bold;
+    font-size: 10px;
 }
 
-.paragraph-special p:hover {
+.paragraph-special:hover {
     cursor: pointer;
-
 }
 
 #advantages {
@@ -342,7 +346,7 @@ form button {
 
 /* IDEA: Section DataCenters */
 #datacenters {
-    padding: 50px 0;
+    padding: 150px 0;
     background-color: #031B4E;
     background-image: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
     color: white;
@@ -380,6 +384,7 @@ form button {
     content: "\f054";
     font-family: FontAwesome;
     font-weight: bold;
+    font-size: 10px;
 }
 
 .test-speed:hover {
@@ -394,3 +399,45 @@ form button {
 
 
 /* Section developers love */
+#developerslove {
+    padding-bottom: 100px;
+}
+
+#developerslove img{
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;  /* !!!!pensare ad aggiustare la posizione delle icone con la position absolute......... */
+}
+
+#developerslove i{
+    margin-top:200px;
+    color: #031b4e;
+    font-size: 30px;
+}
+
+/* Section get started */
+#getstarted {
+    padding: 80px;
+    background-image: url(img/background.jpg);
+}
+
+#getstarted button {
+    width: 240px;
+    padding: 2%;
+    margin-top: 25px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #010e28;
+    color: hsla(0,0%,100%,.5);
+    font-size: 14px;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+
+footer li {
+    list-style: none;
+    padding: 2%;
+}
