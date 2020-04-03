@@ -441,3 +441,34 @@ footer li {
     list-style: none;
     padding: 2%;
 }
+
+footer li:first-of-type{
+    padding-bottom: 15px;
+}
+
+footer li:not(.color-white):hover{
+    color:white;
+    cursor: pointer;
+}
+
+#footer-bottom {
+    border-top: 1px solid hsla(0,0%,100%,.5);
+    width: 100%;
+}
+
+footer img {
+    height: auto;
+    width: 50px;
+    object-fit: contain;
+}
+
+#footer-copyright{
+    margin-top: 20px;
+}
+
+footer i {
+    color: hsla(0,0%,100%,.5);
+    display: inline-block;
+    font-size:20px;
+    
+}
