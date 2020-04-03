@@ -1,3 +1,5 @@
+/* General */
+
 .background-white {
     background-color: white;
 }
@@ -51,9 +53,6 @@
     font-size: 16px;
     margin-bottom: 10px;
 }
-
-
-
 
 /*  nav-top */
 .navbar-default {
@@ -158,6 +157,7 @@
     background-image: url("img/background.jpg");
     background-size: cover;
     color: #ffff;
+    padding: 150px;
     margin-bottom: 0;
 }
 
@@ -180,7 +180,7 @@
 #riga::before,
 #riga::after {
     content: '';
-    width: 30%;
+    width: calc((100% - 90px)/ 2);
     height: 1px;
     background-color: #B3BAC8;
     position: absolute;
@@ -348,3 +348,49 @@ form button {
     color: white;
     font-size: 36px;
 }
+
+#datacenters h2 {
+    margin-bottom: 60px;
+}
+
+.cod-data {
+    font-size: 13px;
+    width: 15%;
+    color: #fff;
+    text-align: left;
+    padding: 11px 10px 10px;
+}
+
+.city-data{
+    opacity: .6;
+    font-size: 13px;
+    text-align:left;
+    font-weight: normal;
+    padding: 11px 10px 10px;
+}
+
+.test-speed {
+    color: #00d7d2;
+    text-align: right;
+    font-size: 13px;
+    padding: 11px 10px 10px;
+}
+
+.test-speed::after {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-weight: bold;
+}
+
+.test-speed:hover {
+    color: #0069ff;
+    cursor: pointer;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 0px;
+    border-bottom: 0.5px solid #98A3B8;
+} /* manca levare il bordo delle ultime righe */
+
+
+/* Section developers love */
